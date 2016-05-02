@@ -1,0 +1,22 @@
+﻿<h1>Angular Test Login</h1>
+<div class="login">
+    <form name="loginForm" ng-submit="loginForm.$valid && loginCheck()" novalidate>
+        <div class="message">
+            <p>{{login.message}}</p>
+        </div>
+        <div>
+            <input class="email" name="email" type="email" placeholder="Email" ng-model="email" required />
+        </div>
+        <div ng-show="loginForm.email.$dirty && loginForm.email.$invalid" style="color:red;">            
+            <span ng-show="loginForm.email.$error.required">EMAIL is required.</span>
+            <span ng-show="loginForm.email.$dirty">EMAIL formate is wrong.</span>
+                
+        </div>
+        <div>
+            <input class="password" name="password" type="password" placeholder="Password" ng-model="password" required />
+        </div>
+        <div>
+            <input type="submit" value="LOGIN" />
+        </div>
+    </form>
+</div>

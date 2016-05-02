@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #fff;
+    padding:50px;
+    font: 14px/1.5 Arial;
+    color:#727272;
+    font-weight:400;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.message{
+    color: red;
+}
+
+.login {
+    background: #ffffff;
+    border: 1px solid #d4dfe7;
+    box-shadow: 0px 1px 2px 0px #e7edf3;
+    padding: 20px 24px 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input {
+    margin: 0;
+    padding: 7px 14px;
+    width: 100%;
+    color: #2e4453;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    border: 1px solid #c8d7e1;
+    background-color: white;
+    box-shadow: none;
+}
+
+.email.ng-invalid.ng-dirty {
+    border-color: #FA787E;
+}
+.email.ng-valid.ng-dirty {
+    border-color: #78FA89;
+}
+
+#map {
+    height: 400px;
+    display: block;
+}
